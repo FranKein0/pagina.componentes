@@ -189,44 +189,51 @@ p {
 }
 
 /* FOOTER */
+
 .footer {
-    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
     background-color: #58114f;
-    color: aliceblue;
+  }
+  
+  .footer-left {
+    flex: 1;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .footer-right {
+    flex: 3;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-list li {
+    margin-left: 20px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+footer a {
     font-family: "kanit";
-    text-align: center;
-}
-
-footer ul li a {
-    color: #ffffff;
-}
-
-footer p {
-    font-size: small;
-    text-align: left;
-}
-
-section article h2 img {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    position: relative;
-    margin: 0px 900px;
-}
-
-section article p {
-    text-align: center;
-}
-
-footer article h2 {
-    font-family: "anton";
-    font-size: medium;
+    font-size: 30px;
+    text-decoration: none;
     color: #ff00c8;
-}
-
-section article img {
-    display: inline;
-    position: relative;
 }
 
 /* FORMULARIO CONTACTO */
