@@ -147,6 +147,16 @@ p {
     .column {
         flex-basis: 100%; /* Hace que cada columna ocupe el 100% del ancho en la versión móvil */
     }
+
+   .carousel {
+    width: 100%;
+    height: auto;
+   }
+
+   .d-block-w-100 {
+    width: 100%;
+    object-fit: cover;
+   }
 }
 
 
