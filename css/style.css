@@ -72,7 +72,6 @@ div img {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid white;
 }
 
 .cajita img {
@@ -94,7 +93,7 @@ div img {
 }
 
 
-.grilla .cajita:hover {
+.grilla .cajita:hover img {
     border: 2px solid white;
 }
 
