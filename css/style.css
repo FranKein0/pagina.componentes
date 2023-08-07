@@ -158,6 +158,11 @@ p {
     width: 100%;
     object-fit: cover;
    }
+
+   .banner {
+    width: 100% !important; 
+    height: auto !important;
+}
 }
 
 
@@ -275,6 +280,7 @@ section form {
     footer {
         flex-direction: column;
     }
+    
 }
 
 
