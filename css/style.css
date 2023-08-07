@@ -272,6 +272,9 @@ section form {
         width: 100%;
         height: 300px;
     }
+    footer {
+        flex-direction: column;
+    }
 }
 
 
