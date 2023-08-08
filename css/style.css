@@ -142,11 +142,35 @@ p {
     flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .grillamother {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+    img.placa-madre {
+        max-width: 100%; 
+        height: auto;
+        margin: 0 auto;
+    }
+    img.pins, 
+    img.vista-arriba {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        margin-left: -50px;
+    }
+    img.pins{
+        margin-bottom: 150px;
+    }
+}
 
 /* Estilos específicos para la versión móvil usando Media Queries */
 @media screen and (max-width: 768px) {
     .column {
-        flex-basis: 100%; /* Hace que cada columna ocupe el 100% del ancho en la versión móvil */
+        flex-basis: 100%;
     }
 
    .carousel {
