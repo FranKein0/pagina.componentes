@@ -1,25 +1,24 @@
+
+
+/*# sourceMappingURL=style.css.map */
 * {
     margin: 0;
     padding: 0;
 }
-
 @font-face {
     font-family: "anton";
     src: url(../assets/fonts/Anton-Regular.ttf);
 }
-
 @font-face {
     font-family: "kanit";
     src: url(../assets/fonts/Kanit-ExtraLight.ttf);
 }
-
 h1 {
     color: #ff00c8;
     font-family: "anton";
     font-size: 100px;
     text-align: center;
 }
-
 main p {
     color: #ffffff;
     font-family: "kanit";
@@ -27,45 +26,36 @@ main p {
     font-size: 30px;
     padding: 100px;
 }
-
 h2 {
     color: #7920ec;
     font-family: "anton";
     font-size: 100 px;
 }
-
 main {
     background-image: url(../assets/img/FONDO\ INDEX.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
-
 div img {
     padding-right: 80px;
     height: 150px;
     width: 150px;
     position: relative;
 }
-
 /* BARRA DE NAVEGACION HOVER */
-
 .nav-link:hover {
     background-color: #070006; /* Color de fondo cuando el mouse está sobre el enlace */
     border-radius: 5px;
     color: white;
     }
-
 /* GRIDS Y FLEX EN INDEX */
-
 .grilla {
     display: grid;
     grid-template-columns: 300px 300px;
     justify-content: center;
     gap: 5px;
 }
-
-
 .cajita {
     width: 100%;
     height: 250px;
@@ -73,54 +63,42 @@ div img {
     align-items: center;
     justify-content: center;
 }
-
 .cajita img {
     width: 130%;
     height: 100%;
     justify-content: space-between;
 }
-
-
 .grilla .cajita {
     overflow: hidden;
     border: 2px solid transparent;
     transition: transform 1s, border 1s;
     box-sizing: border-box;
 }
-
 .mapainteractivo {
     object-fit: cover;
 }
-
-
 .grilla .cajita:hover img {
     border: 2px solid white;
 }
-
 .grilla .cajita:hover img {
     transform: scale(1.1);
 }
-
 /* GRIDS Y FLEX EN MOTHERBOARDS */
-
 .grillamother {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .row {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
 .column {
     flex: 1;
     padding: 10px;
 }
-
 img.vista-arriba, img.pins {
     left: 100px;
     top: 100px;
@@ -128,15 +106,12 @@ img.vista-arriba, img.pins {
     height: auto;
     justify-content: center;
 }
-
 p {
     margin: 0;
 }
-
 .textomother {
     margin-top: 100px;
 }
-
 .grillamother {
     display: flex;
     flex-wrap: wrap;
@@ -166,10 +141,33 @@ p {
         margin-bottom: 150px;
     }
 }
-
+/* GRIDS Y FLEX EN CPU */
+.procesador {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .procesador {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px; /* Ajusta el espaciado entre las imágenes */
+    }
+    
+    .proce-mano,
+    .intel,
+    .amd {
+      width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+      max-width: 400px; /* Limita el ancho máximo de las imágenes */
+      height: auto;
+      border: #ff00c8 solid 1px;
+    }
+  }
 /* Estilos específicos para la versión móvil usando Media Queries */
 @media screen and (max-width: 768px) {
     .column {
+        flex-basis: 100%; /* Hace que cada columna ocupe el 100% del ancho en la versión móvil */
         flex-basis: 100%;
     }
 
@@ -177,19 +175,15 @@ p {
     width: 100%;
     height: auto;
    }
-
    .d-block-w-100 {
     width: 100%;
     object-fit: cover;
    }
-
    .banner {
     width: 100% !important; 
     height: auto !important;
 }
 }
-
-
 /* BARRA DE NAVEGACION */
 .nav-link {
     color: #ff00c8;
@@ -201,7 +195,6 @@ p {
     margin-top: 30px;
     margin: 15px;
 }
-
 .nav {
     list-style-type: none;
     text-decoration: none;
@@ -210,15 +203,12 @@ p {
     font-size: large;
     justify-content: center;
 }
-
 /* CARRUSEL */
 .d-block-w-100 {
     width: 120%;
     height: 800px;
 }
-
 /* FOOTER */
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -257,14 +247,12 @@ p {
     width: 20px;
     height: 20px;
   }
-
 footer a {
     font-family: "kanit";
     font-size: 30px;
     text-decoration: none;
     color: #ff00c8;
 }
-
 /* FORMULARIO CONTACTO */
 section form {
     display: block;
@@ -276,21 +264,17 @@ section form {
     margin-top: 50px;
     padding: 100px;
 }
-
 .formulario {
     width: 100px;
     font-size: 20px;
 }
-
 .carousel-inner {
     display: flex;
     flex-wrap: wrap; 
 }
-
 .carousel-item {
     flex: 0 0 100%;
 }
-
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 768px) {
     .carousel-inner {
@@ -306,89 +290,77 @@ section form {
     }
     
 }
-
-
 /* IMAGENES Y MULTIMEDIA */
-
 .gabinete {
     margin: 90px 90px 90px 90px;
     width: 300px;
     height: auto;
 }
-
 .cuadrado {
     margin: 90px 90px 90px 90px;
     width: 400px;
     height: auto;
 }
-
 .banner {
     width: 1903px;
     height: 700px;
 }
     
-
 .placa-madre {
     width: 1903px;
     height: 700px;
 }
-
 .vista-arriba {
     width: 800px;
     height: auto;
 }
-
 .pins {
     width: 800px;
     height: auto;
     margin-top: 50px;
 }
-
 .ram-mano { 
     width: 500px;
     height: auto;
 }
-
 .ram-socket {
     width: 500px;
     height: auto;
 }
-
 .ram-colocada {
     width: 500px;
     height: auto;
 }
-
 .proce-mano {
     width: 500px;
     height: auto;
+    object-fit: cover;
+    border: #ff00c8 solid 1px;
 }
-
 .intel { 
-    width: 500px;
+    width: 600px;
     height: auto;
+    object-fit: cover;
+    border: #ff00c8 solid 1px;
 }
-
 .amd {
     width: 500px;
     height: auto;
+    object-fit: cover;
+    border: #ff00c8 solid 1px;
 }
-
 .gpu-mano {
     width: 500px;
     height: auto;
 }
-
 .interior {
     width: 500px;
     height: auto;
 }
-
 .atras {
     width: 500px;
     height: auto;
 }
-
 .geforce {
     width: 500px;
     height: auto;
