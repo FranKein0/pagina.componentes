@@ -164,6 +164,54 @@ p {
       border: #ff00c8 solid 1px;
     }
   }
+  /* GRIDS Y FLEX EN GPU */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 500px;
+    height: 100%;
+    margin: 10px;
+    border: #7920ec solid 1px;
+}
+
+.banner-gpu {
+margin: 0 20px;
+width: 50%;
+height: auto;
+margin-left: 25%;
+border: #7920ec solid 1px;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .image-container img {
+        width: 500px;
+        height: auto;
+        margin: 10px 0;
+        border: #7920ec solid 1px;
+    }
+    
+    .banner-gpu {
+        margin: 20px 0;
+        width: 50%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }
+
 /* Estilos específicos para la versión móvil usando Media Queries */
 @media screen and (max-width: 768px) {
     .column {
@@ -362,6 +410,6 @@ section form {
     height: auto;
 }
 .geforce {
-    width: 500px;
+    width: 100%;
     height: auto;
 }
