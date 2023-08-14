@@ -211,6 +211,28 @@ border: #7920ec solid 1px;
         margin-right: auto;
     }
     }
+/* GRIDS Y FLEX EN RAM */
+.ram-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+.ram-img {
+    width: 30%; 
+    height: auto;
+    margin: 50px; 
+    border: #7920ec solid 1px;
+}
+@media (max-width: 768px) {
+    .ram-conteiner {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .ram-img {
+        width: 70%; 
+        margin: 20px; 
+    }
+}
 
 /* Estilos específicos para la versión móvil usando Media Queries */
 @media screen and (max-width: 768px) {
