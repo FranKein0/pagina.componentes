@@ -332,13 +332,48 @@ section form {
     font-weight: 60px;
     width: 200px;
     height: 100px;
+    margin-left: 50px;
+    padding: 80px;
     margin-top: 50px;
-    padding: 100px;
 }
 .formulario {
     width: 100px;
+    height: 500px;
     font-size: 20px;
 }
+input, textarea {
+    background-color: #703062;
+    width: 500px;
+}
+.button {
+    background-color: #58114f;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+    .formulario {
+    width: 50px;
+    height: 250px;
+    font-size: 11px;
+    }
+    section form {
+        display: block;
+        color: #ff00c8;
+        margin: 75px;
+        font-weight: 30px;
+        width: 100px;
+        height: 50px;
+        margin-left: 0;
+        padding: 40px;
+        margin-top: 50px;
+    }
+    input, textarea {
+        background-color: #703062;
+        width: 370px;
+    }
+}
+
+/* carousel */
 .carousel-inner {
     display: flex;
     flex-wrap: wrap; 
@@ -437,15 +472,7 @@ section form {
     height: auto;
 }
 
-/* mediaqueries mobile INDEX */
-/* Estilos base que se aplicarán a todas las resoluciones */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Resto de tus estilos aquí */
+/* mediaqueries mobile 400px */
 
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 400px) {
@@ -544,5 +571,20 @@ section form {
     .grilla .cajita:hover img {
         transform: scale(1.1);
         width: 100%;
+    }
 }
+/* mediaqueries formulario */
+/* Estilos para pantallas de 768px o menos */
+@media (max-width: 768px) {
+    section form {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para pantallas de 400px o menos */
+@media (max-width: 400px) {
+    section form {
+        font-size: 12px;
+        padding: 10px;
+    }
 }
