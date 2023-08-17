@@ -33,10 +33,11 @@ h2 {
     font-size: 100 px;
 }
 main {
-    background-image: url(../assets/img/FONDO\ INDEX.png);
+    /* background-image: url(../assets/img/FONDO\ INDEX.png);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; */
+    background-image: radial-gradient(ellipse, #660351, #240224);
 }
 div img {
     padding-right: 80px;
