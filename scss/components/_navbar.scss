@@ -1,26 +1,26 @@
 /* BARRA DE NAVEGACION */
-.nav-link {
-    color: #ff00c8;
-    font-family: "kanit";
-    font-size: 40px;
-    list-style-type: none;
-    text-decoration: none;
-    padding: 30px;
-    margin-top: 30px;
-    margin: 15px;
-}
 .nav {
     list-style-type: none;
-    text-decoration: none;
     text-align: center;
     background-color: #58114f;
     font-size: large;
     justify-content: center;
-}
-
-/* BARRA DE NAVEGACION HOVER */
-.nav-link:hover {
-    background-color: #070006; /* Color de fondo cuando el mouse está sobre el enlace */
-    border-radius: 5px;
-    color: white;
+  
+    .nav-link {
+      color: #ff00c8;
+      font-family: "kanit";
+      font-size: 40px;
+      list-style-type: none;
+      text-decoration: none;
+      padding: 30px;
+      margin-top: 30px;
+      margin: 15px;
+      
+      &:hover {
+        background-color: #070006;
+        border-radius: 5px;
+        color: white;
+      }
     }
+  }
+  

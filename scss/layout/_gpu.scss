@@ -3,19 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.image-container img {
-    width: 500px;
-    height: 100%;
-    margin: 10px;
+  
+    img {
+      width: 500px;
+      height: 100%;
+      margin: 10px;
+      border: #7920ec solid 1px;
+    }
+  }
+  
+  .banner-gpu {
+    margin: 0 20px;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
     border: #7920ec solid 1px;
-}
-
-.banner-gpu {
-margin: 0 20px;
-width: 50%;
-height: auto;
-margin-left: 25%;
-border: #7920ec solid 1px;
-}
+  }
+  
