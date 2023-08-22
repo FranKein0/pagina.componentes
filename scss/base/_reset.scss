@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "anton";
+    src: url(../assets/fonts/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "kanit";
+    src: url(../assets/fonts/Kanit-ExtraLight.ttf);
+}
+h1 {
+    color: #ff00c8;
+    font-family: "anton";
+    font-size: 100px;
+    text-align: center;
+}
+main p {
+    color: #ffffff;
+    font-family: "kanit";
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+}
+h2 {
+    color: #7920ec;
+    font-family: "anton";
+    font-size: 100 px;
+}
+body {
+    background-image: radial-gradient(ellipse, #660351, #240224);
+}
+div img {
+    padding-right: 80px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}

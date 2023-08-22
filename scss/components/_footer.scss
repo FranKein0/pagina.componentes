@@ -1,0 +1,45 @@
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  background-color: #58114f;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer-right {
+  flex: 3;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-list li {
+  margin-left: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+footer a {
+  font-family: "kanit";
+  font-size: 30px;
+  text-decoration: none;
+  color: #ff00c8;
+}

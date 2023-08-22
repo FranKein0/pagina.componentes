@@ -1,0 +1,207 @@
+@media (max-width: 768px) {
+  .grillamother {
+    flex-direction: column;
+  }
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+  .d-block-w-100 {
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .carousel-inner {
+    flex-wrap: nowrap;
+    height: 500px;
+  }
+  .banner {
+    width: 100%;
+    height: 300px;
+  }
+  .column {
+    width: 100%;
+  }
+  img.placa-madre {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  img.pins,
+  img.vista-arriba {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: -50px;
+  }
+  img.pins {
+    margin-bottom: 150px;
+  }
+  .column {
+    flex-basis: 100%; /* Hace que cada columna ocupe el 100% del ancho en la versión móvil */
+    flex-basis: 100%;
+  }
+  .procesador {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Ajusta el espaciado entre las imágenes */
+  }
+  .proce-mano,
+  .intel,
+  .amd {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    max-width: 400px; /* Limita el ancho máximo de las imágenes */
+    height: auto;
+    border: #ff00c8 solid 1px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container img {
+    width: 500px;
+    height: auto;
+    margin: 10px 0;
+    border: #7920ec solid 1px;
+  }
+  .banner-gpu {
+    margin: 20px 0;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ram-conteiner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ram-img {
+    width: 70%;
+    margin: 20px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  section form {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .d-block-w-100 {
+    height: 300px;
+  }
+  .carousel {
+    height: 300px;
+  }
+  /* Reducción del tamaño del mapa interactivo */
+  .mapainteractivo img {
+    width: 100px;
+    height: 100px;
+  }
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cajita {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .cajita img {
+    width: 125%;
+    height: 100px;
+    object-fit: contain;
+    align-items: center;
+  }
+  .grilla .cajita:hover img {
+    border: 2px solid white;
+    width: 100%;
+  }
+  .grilla .cajita:hover img {
+    transform: scale(1.1);
+    width: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  main p {
+    font-size: 20px;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .nav-link {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    margin: 5px;
+  }
+  .banner,
+  .placa-madre,
+  .vista-arriba,
+  .pins,
+  .ram-mano,
+  .ram-socket,
+  .ram-colocada,
+  .proce-mano,
+  .intel,
+  .amd,
+  .gpu-mano,
+  .interior,
+  .atras,
+  .geforce {
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    padding: 10px;
+  }
+  .footer-list {
+    font-size: 20px;
+  }
+  .footer-list a {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  .footer-list a img {
+    margin-right: 5px;
+  }
+  .loguito {
+    width: 150px;
+  }
+  section form {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .formulario {
+    width: 50px;
+    height: 250px;
+    font-size: 11px;
+  }
+  section form {
+    display: block;
+    color: #ff00c8;
+    margin: 75px;
+    font-weight: 30px;
+    width: 100px;
+    height: 50px;
+    margin-left: 0;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  input, textarea {
+    background-color: #703062;
+    width: 370px;
+  }
+}

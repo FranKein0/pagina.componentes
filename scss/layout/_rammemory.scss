@@ -1,0 +1,11 @@
+/* GRIDS Y FLEX EN RAM */
+.ram-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+.ram-img {
+    width: 30%; 
+    height: auto;
+    margin: 50px; 
+    border: #7920ec solid 1px;
+}
