@@ -226,7 +226,7 @@ div img {
   border: 2px solid white;
 }
 .grilla .cajita:hover img {
-  transform: scale(1.1);
+  transform: scale(0.3);
 }
 
 /* CARRUSEL */
