@@ -2,12 +2,13 @@
 .nav {
     list-style-type: none;
     text-align: center;
-    background-color: #58114f;
+    background-color: $color1;
     font-size: large;
     justify-content: center;
   
     .nav-link {
-      color: #ff00c8;
+      @include estilo-enlaces;
+      color: $color2;
       font-family: "kanit";
       font-size: 40px;
       list-style-type: none;

@@ -1,7 +1,7 @@
 /* FORMULARIO CONTACTO */
 section form {
     display: block;
-    color: #ff00c8;
+    color: $color2;
     margin: 150px;
     font-weight: 60px;
     width: 200px;
@@ -16,10 +16,10 @@ section form {
     font-size: 20px;
 }
 input, textarea {
-    background-color: #703062;
+    background-color: $color3;
     width: 500px;
 }
 .button {
-    background-color: #58114f;
+    background-color: $color1;
     color: #ffffff;
 }

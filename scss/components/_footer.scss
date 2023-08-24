@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #f0f0f0;
   padding: 20px;
-  background-color: #58114f;
+  background-color: $color1;
 
   &-left {
     flex: 1;
@@ -41,6 +41,6 @@
     font-family: "kanit";
     font-size: 30px;
     text-decoration: none;
-    color: #ff00c8;
+    color: $color2;
   }
 }
